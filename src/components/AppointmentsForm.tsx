@@ -1,4 +1,5 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
+import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 
 export default function AppointmentsForm() {
   return (
@@ -33,7 +34,7 @@ export default function AppointmentsForm() {
         <TextField label="Last Name" variant="outlined" fullWidth />
         <TextField label="Email" variant="outlined" fullWidth />
         <TextField label="Phone Number" variant="outlined" fullWidth />
-
+        <DateTimePicker label="Appointment Date & Time" />
         <Button
           variant="contained"
           type="submit"
